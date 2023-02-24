@@ -1,2 +1,2 @@
 # Dodge-Game
-A slippery game on Wpf C#
+A slippery game :) based on Wpf C#.
