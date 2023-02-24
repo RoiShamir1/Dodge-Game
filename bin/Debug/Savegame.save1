@@ -1,0 +1,11 @@
+good: colom: #0#, row: #0#alive
+bad0: colom: #4#, row: #0#alive
+bad1: colom: #2#, row: #1#dead
+bad2: colom: #1#, row: #0#dead
+bad3: colom: #1#, row: #0#dead
+bad4: colom: #3#, row: #0#dead
+bad5: colom: #3#, row: #0#dead
+bad6: colom: #3#, row: #0#alive
+bad7: colom: #4#, row: #5#alive
+bad8: colom: #2#, row: #0#dead
+bad9: colom: #2#, row: #0#alive

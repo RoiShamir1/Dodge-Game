@@ -1,0 +1,166 @@
+﻿<Window x:Class="GAME3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GAME3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="886" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Grid x:Name="mygrid" Background="White" Focusable="True" KeyDown="Keyisdown" KeyUp="Keyisup" Height="910" VerticalAlignment="Top">
+        <Border BorderThickness="10" Margin="0,0,0,27">
+            <Grid Margin="0,0,0,55">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="78"/>
+                    <RowDefinition Height="78"/>
+                    <RowDefinition Height="78"/>
+                    <RowDefinition Height="78"/>
+                    <RowDefinition Height="78"/>
+                    <RowDefinition Height="78"/>
+                    <RowDefinition Height="78"/>
+                    <RowDefinition Height="78"/>
+                    <RowDefinition Height="78"/>
+                    <RowDefinition Height="78"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="78"/>
+                    <ColumnDefinition Width="78"/>
+                    <ColumnDefinition Width="78"/>
+                    <ColumnDefinition Width="78"/>
+                    <ColumnDefinition Width="78"/>
+                    <ColumnDefinition Width="78"/>
+                    <ColumnDefinition Width="78"/>
+                    <ColumnDefinition Width="78"/>
+                    <ColumnDefinition Width="78"/>
+                    <ColumnDefinition Width="78"/>
+                </Grid.ColumnDefinitions>
+                <!--Row 1-->
+                <Grid Grid.Row="0" Grid.Column="0" Background="Gray"></Grid>
+                <Grid Grid.Row="0" Grid.Column="1" Background="Gray"></Grid>
+                <Grid Grid.Row="0" Grid.Column="2" Background="Gray"></Grid>
+                <Grid Grid.Row="0" Grid.Column="3" Background="Gray"></Grid>
+                <Grid Grid.Row="0" Grid.Column="4" Background="Gray"></Grid>
+                <Grid Grid.Row="0" Grid.Column="5" Background="Gray"></Grid>
+                <Grid Grid.Row="0" Grid.Column="6" Background="Gray"></Grid>
+                <Grid Grid.Row="0" Grid.Column="7" Background="Gray"></Grid>
+                <Grid Grid.Row="0" Grid.Column="8" Background="Gray"></Grid>
+                <Grid Grid.Row="0" Grid.Column="9" Background="Gray"></Grid>
+                <!--Row 2-->
+                <Grid Grid.Row="1" Grid.Column="0" Background="Gray"></Grid>
+                <Grid Grid.Row="1" Grid.Column="1" Background="Gray"></Grid>
+                <Grid Grid.Row="1" Grid.Column="2" Background="Gray"></Grid>
+                <Grid Grid.Row="1" Grid.Column="3" Background="Gray"></Grid>
+                <Grid Grid.Row="1" Grid.Column="4" Background="Gray"></Grid>
+                <Grid Grid.Row="1" Grid.Column="5" Background="Gray"></Grid>
+                <Grid Grid.Row="1" Grid.Column="6" Background="Gray"></Grid>
+                <Grid Grid.Row="1" Grid.Column="7" Background="Gray"></Grid>
+                <Grid Grid.Row="1" Grid.Column="8" Background="Gray"></Grid>
+                <Grid Grid.Row="1" Grid.Column="9" Background="Gray"></Grid>
+                <!--Row 3-->
+                <Grid Grid.Row="2" Grid.Column="0" Background="Gray"></Grid>
+                <Grid Grid.Row="2" Grid.Column="1" Background="Gray"></Grid>
+                <Grid Grid.Row="2" Grid.Column="2" Background="Gray"></Grid>
+                <Grid Grid.Row="2" Grid.Column="3" Background="Gray"></Grid>
+                <Grid Grid.Row="2" Grid.Column="4" Background="Gray"></Grid>
+                <Grid Grid.Row="2" Grid.Column="5" Background="Gray"></Grid>
+                <Grid Grid.Row="2" Grid.Column="6" Background="Gray"></Grid>
+                <Grid Grid.Row="2" Grid.Column="7" Background="Gray"></Grid>
+                <Grid Grid.Row="2" Grid.Column="8" Background="Gray"></Grid>
+                <Grid Grid.Row="2" Grid.Column="9" Background="Gray"></Grid>
+                <!--Row 4-->
+                <Grid Grid.Row="3" Grid.Column="0" Background="Gray"></Grid>
+                <Grid Grid.Row="3" Grid.Column="1" Background="Gray"></Grid>
+                <Grid Grid.Row="3" Grid.Column="2" Background="Gray"></Grid>
+                <Grid Grid.Row="3" Grid.Column="3" Background="Gray"></Grid>
+                <Grid Grid.Row="3" Grid.Column="4" Background="Gray"></Grid>
+                <Grid Grid.Row="3" Grid.Column="5" Background="Gray"></Grid>
+                <Grid Grid.Row="3" Grid.Column="6" Background="Gray"></Grid>
+                <Grid Grid.Row="3" Grid.Column="7" Background="Gray"></Grid>
+                <Grid Grid.Row="3" Grid.Column="8" Background="Gray"></Grid>
+                <Grid Grid.Row="3" Grid.Column="9" Background="Gray"></Grid>
+                <!--Row 5-->
+                <Grid Grid.Row="4" Grid.Column="0" Background="Gray"></Grid>
+                <Grid Grid.Row="4" Grid.Column="1" Background="Gray"></Grid>
+                <Grid Grid.Row="4" Grid.Column="2" Background="Gray"></Grid>
+                <Grid Grid.Row="4" Grid.Column="3" Background="Gray"></Grid>
+                <Grid Grid.Row="4" Grid.Column="4" Background="Gray"></Grid>
+                <Grid Grid.Row="4" Grid.Column="5" Background="Gray"></Grid>
+                <Grid Grid.Row="4" Grid.Column="6" Background="Gray"></Grid>
+                <Grid Grid.Row="4" Grid.Column="7" Background="Gray"></Grid>
+                <Grid Grid.Row="4" Grid.Column="8" Background="Gray"></Grid>
+                <Grid Grid.Row="4" Grid.Column="9" Background="Gray"></Grid>
+                <!--Row 6-->
+                <Grid Grid.Row="5" Grid.Column="0" Background="Gray"></Grid>
+                <Grid Grid.Row="5" Grid.Column="1" Background="Gray"></Grid>
+                <Grid Grid.Row="5" Grid.Column="2" Background="Gray"></Grid>
+                <Grid Grid.Row="5" Grid.Column="3" Background="Gray"></Grid>
+                <Grid Grid.Row="5" Grid.Column="4" Background="Gray"></Grid>
+                <Grid Grid.Row="5" Grid.Column="5" Background="Gray"></Grid>
+                <Grid Grid.Row="5" Grid.Column="6" Background="Gray"></Grid>
+                <Grid Grid.Row="5" Grid.Column="7" Background="Gray"></Grid>
+                <Grid Grid.Row="5" Grid.Column="8" Background="Gray"></Grid>
+                <Grid Grid.Row="5" Grid.Column="9" Background="Gray"></Grid>
+                <!--Row 7-->
+                <Grid Grid.Row="6" Grid.Column="0" Background="Gray"></Grid>
+                <Grid Grid.Row="6" Grid.Column="1" Background="Gray"></Grid>
+                <Grid Grid.Row="6" Grid.Column="2" Background="Gray"></Grid>
+                <Grid Grid.Row="6" Grid.Column="3" Background="Gray"></Grid>
+                <Grid Grid.Row="6" Grid.Column="4" Background="Gray"></Grid>
+                <Grid Grid.Row="6" Grid.Column="5" Background="Gray"></Grid>
+                <Grid Grid.Row="6" Grid.Column="6" Background="Gray"></Grid>
+                <Grid Grid.Row="6" Grid.Column="7" Background="Gray"></Grid>
+                <Grid Grid.Row="6" Grid.Column="8" Background="Gray"></Grid>
+                <Grid Grid.Row="6" Grid.Column="9" Background="Gray"></Grid>
+                <!--Row 8-->
+                <Grid Grid.Row="7" Grid.Column="0" Background="Gray"></Grid>
+                <Grid Grid.Row="7" Grid.Column="1" Background="Gray"></Grid>
+                <Grid Grid.Row="7" Grid.Column="2" Background="Gray"></Grid>
+                <Grid Grid.Row="7" Grid.Column="3" Background="Gray"></Grid>
+                <Grid Grid.Row="7" Grid.Column="4" Background="Gray"></Grid>
+                <Grid Grid.Row="7" Grid.Column="5" Background="Gray"></Grid>
+                <Grid Grid.Row="7" Grid.Column="6" Background="Gray"></Grid>
+                <Grid Grid.Row="7" Grid.Column="7" Background="Gray"></Grid>
+                <Grid Grid.Row="7" Grid.Column="8" Background="Gray"></Grid>
+                <Grid Grid.Row="7" Grid.Column="9" Background="Gray"></Grid>
+                <!--Row 9-->
+                <Grid Grid.Row="8" Grid.Column="0" Background="Gray"></Grid>
+                <Grid Grid.Row="8" Grid.Column="1" Background="Gray"></Grid>
+                <Grid Grid.Row="8" Grid.Column="2" Background="Gray"></Grid>
+                <Grid Grid.Row="8" Grid.Column="3" Background="Gray"></Grid>
+                <Grid Grid.Row="8" Grid.Column="4" Background="Gray"></Grid>
+                <Grid Grid.Row="8" Grid.Column="5" Background="Gray">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="43*"/>
+                        <RowDefinition Height="35*"/>
+                    </Grid.RowDefinitions>
+                </Grid>
+                <Grid Grid.Row="8" Grid.Column="6" Background="Gray"></Grid>
+                <Grid Grid.Row="8" Grid.Column="7" Background="Gray"></Grid>
+                <Grid Grid.Row="8" Grid.Column="8" Background="Gray"></Grid>
+                <Grid Grid.Row="8" Grid.Column="9" Background="Gray"></Grid>
+                <!--Row 10-->
+                <Grid Grid.Row="9" Grid.Column="0" Background="Gray"></Grid>
+                <Grid Grid.Row="9" Grid.Column="1" Background="Gray"></Grid>
+                <Grid Grid.Row="9" Grid.Column="2" Background="Gray"></Grid>
+                <Grid Grid.Row="9" Grid.Column="3" Background="Gray"></Grid>
+                <Grid Grid.Row="9" Grid.Column="4" Background="Gray"></Grid>
+                <Grid Grid.Row="9" Grid.Column="5" Background="Gray"></Grid>
+                <Grid Grid.Row="9" Grid.Column="6" Background="Gray"></Grid>
+                <Grid Grid.Row="9" Grid.Column="7" Background="Gray"></Grid>
+                <Grid Grid.Row="9" Grid.Column="8" Background="Gray"></Grid>
+                <Grid Grid.Row="9" Grid.Column="9" Background="Gray"></Grid>
+                <Rectangle x:Name="good" Height="78" Width="78" Grid.Column="5" Grid.Row="4" Fill="Black"/>
+                <Rectangle x:Name="bad1" Height="78" Width="78" Grid.Column="9" Fill="Red"/>
+                <Rectangle x:Name="bad2" Height="78" Width="78" Fill="Red"/>
+                <Rectangle x:Name="bad3" Height="78" Width="78" Grid.Column="9" Grid.Row="5" Fill="Red"/>
+                <Rectangle x:Name="bad4" Height="78" Width="78" Grid.Column="2" Grid.Row="2" Fill="Red"/>
+                <Rectangle x:Name="bad5" Height="78" Width="78" Grid.Column="5" Grid.Row="9" Fill="Red"/>
+                <Rectangle x:Name="bad6" Height="78" Width="78" Grid.Column="7" Grid.Row="7" Fill="Red"/>
+                <Rectangle x:Name="bad7" Height="78" Width="78" Grid.Column="4" Fill="Red"/>
+                <Rectangle x:Name="bad8" Height="78" Width="78" Grid.Column="9" Grid.Row="9" Fill="Red"/>
+                <Rectangle x:Name="bad9" Height="78" Width="78" Grid.Row="5" Fill="Red"/>
+                <Rectangle x:Name="bad10" Height="78" Width="78" Grid.Row="9" Fill="Red"/>
+            </Grid>
+        </Border>
+        <TextBlock x:Name="Menu" TextWrapping="Wrap" Margin="10,795,10,27" FontSize="22"><Run Text="press ENTER to start    press S to save game    press N for New game              Use the Arrow to move press P to pause and O to Unpause"/><Run Text="                                                                                     press  Space for random place   press C to close game "/></TextBlock>
+    </Grid>
+</Window>

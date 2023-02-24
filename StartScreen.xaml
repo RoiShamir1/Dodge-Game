@@ -1,0 +1,18 @@
+﻿<Page x:Class="GAME3.StartScreen"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GAME3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="StartScreen">
+
+    <Grid Background="#FF0FA4CA">
+        <Button x:Name="newGame" Content="Start Game" Click="newGame_Click" HorizontalAlignment="Center" Margin="0,184,0,0" VerticalAlignment="Top" Height="75" Width="240" FontSize="16"/>
+        <Button Name="loadGame" Content="LoadGame" Click="loadGame_Click" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,410,0,0" Height="36" Width="104"/>
+        <ComboBox x:Name="myCombo" HorizontalAlignment="Center" VerticalAlignment="Top" Width="182" Margin="0,314,0,0" Height="42"/>
+        <TextBlock x:Name="text_box" HorizontalAlignment="Center" Height="85" Margin="0,43,0,0" TextWrapping="Wrap" Text="משחק רדיפה" VerticalAlignment="Top" Width="310" FontSize="54"/>
+
+    </Grid>
+</Page>
